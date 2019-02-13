@@ -1,0 +1,20 @@
+Let's take a different approach to film recommendations:
+create the same variables containing your potential film recommendations and then ask the user to rate their
+ appreciation for
+
+1. documentaries 2. dramas 3. comedies on a scale from one to five.
+
+If they rate (documentaries four or higher),
+  recommend the documentary.
+
+If they rate (documentaries 3 or lower) but both (comedies and dramas 4 or higher,)
+  recommend the dramedy.
+
+If they rate only (dramas 4 or higher),
+  recommend the drama.
+
+If they rate just (comedies 4 or higher),
+  recommend the comedy.
+
+Otherwise, (else)
+  recommend a good book.
